@@ -306,6 +306,7 @@ class PlayState extends MusicBeatState
 				}
 				#end
 			add(daJumpscare);
+		}
         #if MODS_ALLOWED
  		Paths.destroyLoadedImages(resetSpriteCache);
   		#end	
@@ -1364,6 +1365,7 @@ class PlayState extends MusicBeatState
 		
 		
 		super.create();
+	}
 	}
 
 	public function addTextToDebug(text:String) {
