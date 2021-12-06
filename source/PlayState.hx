@@ -1370,6 +1370,19 @@ class PlayState extends MusicBeatState
 		
 		super.create();
 	}
+
+	public function addTextToDebug(text:String) {
+		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
+			spr.y += 20;
+		});
+		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
+	}
+
+	public function reloadHealthBarColors() {
+		healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
+			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
+		healthBar.updateBar();
+	}
 	
 	function doJumpscare(sound:Int = 0, opa:Int = 0)
 		{
@@ -1431,19 +1444,6 @@ class PlayState extends MusicBeatState
 				remove(daJumpscare);
 			}
 		}
-
-	public function addTextToDebug(text:String) {
-		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
-			spr.y += 20;
-		});
-		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
-	}
-
-	public function reloadHealthBarColors() {
-		healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
-			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
-		healthBar.updateBar();
-	}
 
 	public function addCharacterToList(newCharacter:String, type:Int) {
 		switch(type) {
