@@ -227,6 +227,8 @@ class PlayState extends MusicBeatState
 	var emeraldbeam:FlxSprite;
 	var emeraldbeamyellow:FlxSprite;
 	var pebles:FlxSprite;
+	
+	var daJumpscare:FlxSprite;
 
 	var heyTimer:Float;
 
