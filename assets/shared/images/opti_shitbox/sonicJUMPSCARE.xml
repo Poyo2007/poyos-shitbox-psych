@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sonicJUMPSCARE.png">
+	
+	
+	<SubTexture name="sonicSPOOK0000" x="0" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0001" x="192" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0002" x="385" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0003" x="577" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0004" x="770" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0005" x="962" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0006" x="1155" y="0" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0007" x="0" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0008" x="192" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0009" x="385" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0010" x="577" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0011" x="770" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0012" x="962" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0013" x="1155" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0014" x="0" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0015" x="192" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0016" x="385" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0017" x="770" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0018" x="962" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0019" x="1155" y="242" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0020" x="577" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0021" x="770" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0022" x="962" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0023" x="1155" y="485" width="192" height="242" />
+	<SubTexture name="sonicSPOOK0024" x="0" y="728" width="192" height="242" />
+</TextureAtlas>
