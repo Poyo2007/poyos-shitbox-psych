@@ -1330,14 +1330,9 @@ class PlayState extends MusicBeatState
 						startCountdown();
 					else
 					{
-                        startDialogue(dialogueJson);
+           startDialogue(dialogueJson);
 					}
 			}
-			seenCutscene = true;
-		} else {
-			startCountdown();
-		}
-		RecalculateRating();
 
 		//PRECACHING MISS SOUNDS BECAUSE I THINK THEY CAN LAG PEOPLE AND FUCK THEM UP IDK HOW HAXE WORKS
 		CoolUtil.precacheSound('missnote1');
